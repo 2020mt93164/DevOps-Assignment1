@@ -7,6 +7,12 @@ This repository is created by students of BITS from M.Tech WILP 2020-22 as an as
 ### How to clone this repository - 
 - Use following command to clone: `git clone https://github.com/2020mt93164/DevOps-Assignment1.git`
 
+### How to run the code -
+- Open the terminal/command prompt
+- `cd` to the repo directory
+- Execute following command: `javac HelloWorld.java`. It will create a `.class` file which is a bytecode of your program.
+- Run the program using following command: `java HelloWorld`. It will print the output on your terminal/command prompt.
+
 ### How to create a branch - 
 - git branch creation operation: `git branch "branch_name"`
 - checkout the created branch operation: `git checkout "branch_name"`
@@ -24,9 +30,3 @@ This repository is created by students of BITS from M.Tech WILP 2020-22 as an as
 - click on `New pull request` 
 - Select base (destination) and compare (source) branch and click on `Create pull request`
 - An email will be sent to reviwers automatically and once they review and approve, your pull request will be merged.
-
-### How to run the code -
-- Open the terminal/command prompt
-- `cd` to the repo directory
-- Execute following command: `javac HelloWorld.java`. It will create a `.class` file which is a bytecode of your program.
-- Run the program using following command: `java HelloWorld`. It will print the output on your terminal/command prompt.
