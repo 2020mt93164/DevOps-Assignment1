@@ -3,19 +3,21 @@ public class HelloWorld{
 		
 		HelloWorld instance = new HelloWorld();
 		instance.printWelcomeMessage();
-		instance.printInstallingSoftwareMessage();
 		instance.printCheckingSystemMessage();
+		instance.printInstallingSoftwareMessage();
+		instance.printInstallationSuccessMessage();
 	}
-	//changes done by Aditya.sm
-	private void printInstallingSoftwareMessage(){  // aditya to do this
-	System.out.println("Installing software");
-	}
-	//Changes done by bhumit.
+	
 	private void printWelcomeMessage(){
 		System.out.println("Welcome to software installation.");
 	}
-	
 	private void printCheckingSystemMessage(){
-	System.out.println("Checking your system");
-}
+		System.out.println("Checking your system");
+	}
+	private void printInstallingSoftwareMessage(){  
+		System.out.println("Installing software");
+	}
+	private void printInstallationSuccessMessage(){  
+		System.out.println("Software installed successfully");
+	}	
 }
